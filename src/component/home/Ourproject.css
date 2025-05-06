@@ -1,0 +1,42 @@
+
+.ourproject-container {
+    padding: 40px;
+    background: linear-gradient(to right, #1c1c1c, #2d2d2d);
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .ourproject-container h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-left: 2%;
+  }
+  
+  .ourproject-container h1 span {
+    color: #00bfff;
+    text-decoration: underline;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #555;
+    border-radius: 8px;
+    height: 506px;
+  }
+  
+  .project-card.large {
+    grid-column: span 2;
+    height: 333px;
+  }
+  
+  .project-card.tall {
+    grid-row: span 2;
+    height: 858px;
+  }
+  
