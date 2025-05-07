@@ -74,7 +74,7 @@
         display: none;
         position: absolute;
         top: 100%;
-        right: 3%;
+        right: 2%;
         background-color: black;
         flex-direction: column;
         width: 150px;
@@ -86,7 +86,9 @@
     .right-sec ul.active {
         display: flex;
     }
-
+    .left-sec{
+        margin-left: 2%;
+    }
     .right-sec {
         right: 0;
         top: 0;
