@@ -29,55 +29,40 @@ const ProductDetails = () => {
         <div className="specifications-container">
           <h3 className="specifications-title">{product.name || 'Product'} Specifications</h3>
           <table className="specifications-table">
-            <thead>
-              <tr>
-                <th></th>
-                <th>Stonex</th>
-                <th>Stonex Plus</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>a</td>
-                <td>{product.a || '1,322mm'}</td>
-                <td>{product.aPlus || '1,322mm'}</td>
-              </tr>
-              <tr>
-                <td>b</td>
-                <td>{product.b || '1,253mm'}</td>
-                <td>{product.bPlus || '1,253mm'}</td>
-              </tr>
-              <tr>
-                <td>c</td>
-                <td>{product.c || '370mm'}</td>
-                <td>{product.cPlus || '400mm'}</td>
-              </tr>
-              <tr>
-                <td>d</td>
-                <td>{product.d || '25mm'}</td>
-                <td>{product.dPlus || '25mm'}</td>
-              </tr>
-              <tr>
-                <td>Panel Size</td>
-                <td>{product.panelSize || '425mm x 1,322mm (16-3/4" x 52")'}</td>
-                <td>{product.panelSizePlus || '450mm x 1,322mm (17-3/4" x 52")'}</td>
-              </tr>
-              <tr>
-                <td>Installed Exposure</td>
-                <td>{product.installedExposure || '370mm x 1,253mm (14-1/2" x 49-1/4")'}</td>
-                <td>{product.installedExposurePlus || '400mm x 1,253mm (15-3/4" x 49-1/4")'}</td>
-              </tr>
-              <tr>
-                <td>Panel per Square Meter</td>
-                <td>{product.tilesPerSquareMeter || '2.1 tiles/m²'}</td>
-                <td>{product.tilesPerSquareMeterPlus || '1.96 tiles/m²'}</td>
-              </tr>
-              <tr>
-                <td>Installed Weight</td>
-                <td>{product.installedWeight || '5.96 kg/m² (122.6 lbs/sq)'}</td>
-                <td>{product.installedWeightPlus || '—'}</td>
-              </tr>
-            </tbody>
+          <tbody>
+                <tr>
+                  <td>Overall Length</td>
+                  <td>1340mm</td>
+                </tr>
+                <tr>
+                  <td>Length of Cover</td>
+                  <td>1270mm</td>
+                </tr>
+                <tr>
+                  <td>Width of Cover</td>
+                  <td>378mm</td>
+                </tr>
+                <tr>
+                  <td>Roof Cover / Tile</td>
+                  <td>.48m²/Pc</td>
+                </tr>
+                <tr>
+                  <td>Tiles / M²</td>
+                  <td>2.08 Pc</td>
+                </tr>
+                <tr>
+                  <td>Weight</td>
+                  <td>2.5-3.5 kg</td>
+                </tr>
+                <tr>
+                  <td>Nailing Points Per Tile</td>
+                  <td>3</td>
+                </tr>
+                <tr>
+                  <td>Minimum Roof Pitch</td>
+                  <td>15 Deg</td>
+                </tr>
+              </tbody>
           </table>
           <div className="additional-image-container">
             <img
