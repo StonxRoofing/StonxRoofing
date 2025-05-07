@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { ProductProvider } from './pages/ProductContext';
-import { LogProvider } from './admin/LogContext';
-import { EnquiryProvider } from './admin/EnquiryContext';
+import { LogProvider } from './pages/LogContext';
+import { EnquiryProvider } from './pages/EnquiryContext';
 
 import Navbar from './component/navbar/Navbar';
 import Footer from './component/footer/Footer';
@@ -22,7 +22,7 @@ function Layout() {
       {!isAdminRoute && <Navbar />}
       <div className="content">
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/home" element={<Hero />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/admin" element={<AdminPage />} />
