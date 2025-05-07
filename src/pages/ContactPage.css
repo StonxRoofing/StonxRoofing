@@ -1,0 +1,130 @@
+.contact-main {
+  padding: 60px 40px;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 12vh auto;
+}
+
+.contact-container {
+  flex: 1;
+  max-width: 500px;
+}
+
+.contact-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  background-color: #2d2d2d;
+  border: 2px solid #444;
+  padding: 12px 15px;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: #666;
+  background-color: #3d3d3d;
+  outline: none;
+}
+
+.form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
+
+.form-textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.form-submit {
+  background-color: #4a90e2;
+  color: #ffffff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  max-width: 200px;
+}
+
+.form-submit:hover {
+  background-color: #357abd;
+  transform: translateY(-2px);
+}
+
+.form-submit:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.build-section {
+  flex: 1;
+  max-width: 500px;
+}
+
+.build-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.build-description {
+  color: #aaaaaa;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-main {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .contact-container,
+  .build-section {
+    max-width: 100%;
+  }
+
+  .contact-title {
+    font-size: 36px;
+  }
+
+  .build-title {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,93 @@
+.admin-dashboard {
+  display: flex;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  color: white;
+}
+
+.admin-sidebar {
+  width: 220px;
+  background-color: #111;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.sidebar-heading {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sidebar-menu-item {
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #222;
+  transition: background 0.3s;
+}
+
+.sidebar-menu-item:hover {
+  background-color: #333;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.admin-header {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard input[type="text"],
+.admin-dashboard input[type="password"],
+.admin-dashboard input[type="url"],
+.admin-dashboard input[type="email"] {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+  padding: 10px 15px;
+  border-radius: 6px;
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.admin-dashboard input::placeholder {
+  color: #ccc;
+}
+
+/* ===== BUTTON STYLES ===== */
+.admin-dashboard button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-right: 10px;
+}
+
+.admin-dashboard button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.admin-dashboard button:active {
+  background-color: #003f88;
+  transform: translateY(0);
+}
+
+/* Optional secondary button style */
+.admin-dashboard .secondary-button {
+  background-color: #444;
+}
+
+.admin-dashboard .secondary-button:hover {
+  background-color: #666;
+}

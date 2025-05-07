@@ -1,0 +1,103 @@
+* {
+    color: white;
+}
+
+.hero-sec {
+    position: relative; /* Make it a positioned container */
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-sec img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image covers area nicely */
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.225);
+    z-index: 1; /* Puts the overlay above the image */
+}
+
+.hero-sec h1,
+.hero-sec p {
+    position: absolute;
+    z-index: 2; /* Make sure text is above overlay */
+}
+
+.hero-sec h1 {
+    top: 35%;
+    left: 10%;
+    font-size: 70px;
+}
+
+.hero-sec p {
+    top: 60%;
+    left: 10%;
+    color: rgb(204, 204, 204);
+}
+
+.whystoneximg {
+    padding-top: 10vh;
+}
+
+.whystonex h1 {
+    position: absolute;
+    font-size: 70px;
+    left: 10%;
+    margin-top: 15px;
+}
+
+.whystonex p {
+    position: absolute;
+    left: 10%;
+    margin-top: 8%;
+    color: rgb(192, 192, 192);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero-sec {
+        height: 80vh; /* Reduce height for mobile */
+    }
+
+    .hero-sec h1 {
+        top: 25%; /* Adjust position for better spacing */
+        left: 5%;
+        font-size: 36px; /* Smaller font size for mobile */
+        line-height: 1.2; /* Improve readability */
+    }
+
+    .hero-sec p {
+        top: 45%; /* Adjust position to fit below h1 */
+        left: 5%;
+        font-size: 14px; /* Smaller font size for mobile */
+        line-height: 1.5; /* Improve readability */
+        width: 90%; /* Ensure text wraps within screen */
+    }
+
+    .whystonex h1 {
+        font-size: 36px; /* Smaller font size for mobile */
+        left: 5%;
+        margin-top: 10px;
+    }
+
+    .whystonex p {
+        left: 5%;
+        margin-top: 12%; /* Adjust spacing for smaller heading */
+        font-size: 14px; /* Smaller font size for mobile */
+        width: 90%; /* Ensure text wraps within screen */
+        line-height: 1.5;
+    }
+
+    .whystoneximg {
+        padding-top: 5vh; /* Reduce padding for mobile */
+    }
+}
