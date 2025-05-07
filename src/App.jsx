@@ -22,7 +22,7 @@ function Layout() {
       {!isAdminRoute && <Navbar />}
       <div className="content">
         <Routes>
-          <Route path="/home" element={<Hero />} />
+          <Route path="/" element={<Hero />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/products/:id" element={<ProductDetails />} />
           <Route path="/admin" element={<AdminPage />} />
