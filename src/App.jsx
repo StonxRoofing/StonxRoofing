@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { ProductProvider } from './pages/ProductContext';
 import { LogProvider } from './admin/LogContext';
-import { EnquiryProvider } from './pages/EnquiryContext';
+import { EnquiryProvider } from './admin/EnquiryContext';
 
 import Navbar from './component/navbar/Navbar';
 import Footer from './component/footer/Footer';
