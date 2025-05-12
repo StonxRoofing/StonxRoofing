@@ -20,10 +20,6 @@ const faqs = [
     answer: "Contrary to common misconceptions, stone-coated steel roofs are not noisy. The stone coating, combined with the roofing system's design, dampens sound, making them quieter than traditional metal roofs during rainfall."
   },
   {
-    question: "How do I install AlignUI Design System in Figma?",
-    answer: "AlignUI installation in Figma is not relevant to StoneX. However, to install StoneX roofing panels, consult our installation guide or contact our support team for professional assistance."
-  },
-  {
     question: "Does installing a stone-coated steel roof require removing the existing roof?",
     answer: "Not necessarily. In many cases, stone-coated steel roofing can be installed directly over existing roofing materials, saving time and reducing installation costs. Roofing Force"
   }
