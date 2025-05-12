@@ -4,28 +4,28 @@ import './FAQPage.css';
 
 const faqs = [
   {
-    question: "Why do I need to use a Design System?",
-    answer: "A design system ensures consistency across your project, improves collaboration between designers and developers, and speeds up the development process by providing reusable components and guidelines."
+    question: "What is stone-coated steel roofing?",
+    answer: "Stone-coated steel roofing combines the durability of metal with the aesthetic appeal of traditional roofing materials."
   },
   {
-    question: "Is there a preview or a free trial available?",
-    answer: "Yes, many design systems offer a preview or free trial. For StoneX Roofing Solutions, you can contact us to schedule a demo or request a sample product for evaluation."
+    question: "How long does a stone-coated steel roof last?",
+    answer: "These roofs are renowned for their longevity, typically lasting between 40 to 70 years with proper maintenance."
   },
   {
-    question: "Where can I purchase AlignUI Design System?",
-    answer: "The AlignUI Design System is not directly related to StoneX. However, for StoneX products, you can purchase directly through our website or contact our sales team for bulk orders."
+    question: "Is stone-coated steel roofing suitable for Kerala's climate?",
+    answer: "Absolutely. Kerala's tropical climate, characterized by heavy monsoons and high humidity, demands robust roofing solutions. Stone-coated steel roofs are designed to withstand extreme weather conditions, including heavy rainfall and strong winds, making them ideal for the region."
   },
   {
-    question: "What are the recent updates and enhancements in AlignUI?",
-    answer: "While AlignUI updates are not applicable to StoneX, we regularly enhance our roofing solutions. Recent updates include improved weather resistance and new color options for our panels."
+    question: "Are stone-coated steel roofs noisy during rain?",
+    answer: "Contrary to common misconceptions, stone-coated steel roofs are not noisy. The stone coating, combined with the roofing system's design, dampens sound, making them quieter than traditional metal roofs during rainfall."
   },
   {
     question: "How do I install AlignUI Design System in Figma?",
     answer: "AlignUI installation in Figma is not relevant to StoneX. However, to install StoneX roofing panels, consult our installation guide or contact our support team for professional assistance."
   },
   {
-    question: "Can I use AlignUI Design System for commercial projects?",
-    answer: "AlignUI is not a StoneX product. For StoneX roofing solutions, yes, our products are suitable for both residential and commercial projects. Contact us for more details."
+    question: "Does installing a stone-coated steel roof require removing the existing roof?",
+    answer: "Not necessarily. In many cases, stone-coated steel roofing can be installed directly over existing roofing materials, saving time and reducing installation costs. Roofing Force"
   }
 ];
 
