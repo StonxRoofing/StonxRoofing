@@ -47,3 +47,22 @@
     object-fit: cover;
     display: block;
 }
+@media (max-width: 768px) {
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-card,
+  .project-card.large,
+  .project-card.tall {
+    height: 250px;
+    width: 100%;
+  }
+
+  .ourproject-container h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-left: 0;
+  }
+}
