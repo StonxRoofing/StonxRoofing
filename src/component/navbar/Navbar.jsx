@@ -13,7 +13,6 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  // Get the first 4 products for the preview
   const previewProducts = products.slice(0, 4);
 
   return (
@@ -59,6 +58,15 @@ function Navbar() {
           </li>
           <li><Link to="/faq" onClick={() => setIsMenuOpen(false)}>FAQ</Link></li>
           <li><Link to="/contact" onClick={() => setIsMenuOpen(false)}>Contact</Link></li>
+          <li>
+            <a
+              href="https://cdn.discordapp.com/attachments/893774559021522974/1383051939197091871/StoneXroofing.pdf?ex=684d62fe&is=684c117e&hm=8a560635d42d80c04853e300ab655f8920786e5cb08f9bb5a4c5e6d921187035&"
+              download="StoneXroofing.pdf"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Download PDF
+            </a>
+          </li>
         </ul>
       </div>
     </div>
