@@ -2,8 +2,9 @@
   position: relative;
   background-color: #1e1e1e;
   color: white;
-  padding: 80px 40px;
+  padding: 80px 5%;
   font-family: 'Segoe UI', sans-serif;
+  overflow: hidden;
 }
 
 .whystoneximg {
@@ -21,51 +22,53 @@
   position: relative;
   z-index: 1;
   max-width: 1200px;
-  margin: 150px auto 0;
+  margin: 120px auto 0;
+  padding: 0 15px;
 }
 
 .whystonex-content h1 {
-  font-size: 52px;
+  font-size: 3rem;
   margin-bottom: 16px;
+  line-height: 1.2;
 }
 
 .whystonex-content p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.8;
   color: #c0c0c0;
   margin-bottom: 60px;
 }
 
 .structure-heading {
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: 60px 0 20px;
 }
 
 .structure-section {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
   margin-bottom: 50px;
 }
 
 .structure-image {
-  width: 200px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 200px;
   height: auto;
+  flex-shrink: 0;
 }
 
 .structure-list {
   flex: 1;
   color: #c0c0c0;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 2;
   padding-left: 20px;
 }
 
 .features-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 30px;
 }
 
@@ -81,41 +84,103 @@
 .feature-card img {
   width: 36px;
   height: 36px;
-      margin-top: 5px;
+  margin-top: 5px;
 }
 
 .feature-card h3 {
   margin: 0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .feature-card p {
-  font-size: 14px;
+  font-size: 0.9rem;
   color: #c0c0c0;
   line-height: 1.6;
   margin-top: 6px;
 }
 
-/* Responsive Tweaks */
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .whystonex-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .structure-heading {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .structure-section {
     flex-direction: column;
   }
 
-  .structure-heading {
-    font-size: 28px;
+ .structure-image {
+    max-width: 100%;
+    width: 100%;
+  }
+  .structure-list {
+    padding-left: 0;
   }
 
   .whystonex-content h1 {
-    font-size: 40px;
+    font-size: 2rem;
   }
 
-  .features-grid {
-    grid-template-columns: 1fr;
+  .structure-heading {
+    font-size: 1.75rem;
   }
 
   .feature-card {
     flex-direction: row;
+  }
+    .whystoneximg {
+    position: static;
+    width: 120%;
+    height: auto;
+    left: 0;
+    opacity: 1;
+    margin-top: -80px;
+    margin-bottom: 20px;
+        transform: translateX(-10%);
+  }
+
+  .whystonex-content {
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .whystonex-content h1 {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+  
+}
+
+@media (max-width: 480px) {
+  .whystonex-content h1 {
+    font-size: 1.6rem;
+  }
+ .structure-image {
+    max-width: 100%;
+    width: 100%;
+  }
+  .whystonex-content p,
+  .structure-list,
+  .feature-card p {
+    font-size: 0.9rem;
+  }
+
+  .structure-heading {
+    font-size: 1.4rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
   }
 }
