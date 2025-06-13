@@ -12,8 +12,8 @@ const faqs = [
     answer: "These roofs are renowned for their longevity, typically lasting between 40 to 70 years with proper maintenance."
   },
   {
-    question: "Is stone-coated steel roofing suitable for Kerala's climate?",
-    answer: "Absolutely. Kerala's tropical climate, characterized by heavy monsoons and high humidity, demands robust roofing solutions. Stone-coated steel roofs are designed to withstand extreme weather conditions, including heavy rainfall and strong winds, making them ideal for the region."
+    question: "Is stone-coated steel roofing suitable for Tropical climate?",
+    answer: "Absolutely. Tropical climate, characterized by heavy monsoons and high humidity, demands robust roofing solutions. Stone-coated steel roofs are designed to withstand extreme weather conditions, including heavy rainfall and strong winds, making them ideal for the region."
   },
   {
     question: "Are stone-coated steel roofs noisy during rain?",
