@@ -8,7 +8,7 @@ import p4 from '../../assets/projects/project4.jpg';
 function Ourproject() {
   return (
     <div className="ourproject-container">
-      <h1>Our Projects</h1>
+      <h1>Gallery</h1>
       <div className="project-grid">
         <div className="project-card large">
           <img src={p2} alt="Project 1" className="project-image" />
